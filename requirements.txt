@@ -129,3 +129,4 @@ Werkzeug==2.0.1
 widgetsnbextension==3.5.1
 wrapt==1.12.1
 ws4py==0.5.1
+SoundFile==0.10.3.post1
