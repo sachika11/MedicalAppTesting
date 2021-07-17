@@ -33,8 +33,8 @@ from keras import backend as K
 JSON_PATH = "data.json"
 UPLOAD_FOLDER = 'uploads'
 
-app = Flask(__name__,static_url_path='/static')
-app.secret_key = os.urandom(24)
+app = Flask(__name__)
+
 
 ALLOWED_EXTENSIONS = set(['csv', 'xlsx','xls'])
 def allowed_file(filename):
